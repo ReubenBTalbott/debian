@@ -3,7 +3,7 @@
 
 ### settings
 arch=i386
-suite=${1:-jessie}
+suite=${1:-stretch}
 chroot_dir="/var/chroot/$suite"
 apt_mirror="http://http.debian.net/debian"
 docker_image="32bit/debian:$suite"
